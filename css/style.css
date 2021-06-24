@@ -13,6 +13,8 @@ Secondary Color (Orange): #e0b354;
   --link-visited: #05676e;
   --link-active: #489c79;
   --font-weight: 700;
+  --max-width: 700px;
+  --background-color: lightgray;
 }
 
 body {
@@ -26,17 +28,17 @@ body {
 
 h1 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: var(--font-weight);
 }
 
 h2 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: var(--font-weight);
 }
 
 h3 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: var(--font-weight);
 }
 
 a {
@@ -61,7 +63,7 @@ a:active {
 section {
   display: block;
   text-align: center;
-  max-width: 700px;
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 
@@ -123,7 +125,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .experience__table {
-  max-width: 700px;
+  max-width: var(--max-width);
   margin: 0 auto;
   text-align: justify;
   text-align: center;
@@ -131,7 +133,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .profile {
-  max-width: 700px;
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 
@@ -145,7 +147,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 /* start grid fallback */
 .grid__item {
   display: inline-block;
-  background-color: lightgray;
+  background-color: var(--background-color);
   width: 33%;
 }
 /* end grid fallback */
@@ -159,7 +161,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   }
 
   .grid__item {
-    background-color: lightgray;
+    background-color: var(--background-color);
     width: auto;
     min-height: auto;
     margin: 0;
