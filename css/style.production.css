@@ -209,6 +209,9 @@ button:hover, button:focus, .button:hover, .button:focus {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  -webkit-box-pack:justify;
+      -ms-flex-pack:justify;
+          justify-content:space-between;
 }
 
 @media all and (max-width: 500px) {
