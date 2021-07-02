@@ -335,5 +335,4 @@ button:hover, button:focus, .button:hover, .button:focus {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100vh;
-  text-align: center;
 }

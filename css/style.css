@@ -253,5 +253,4 @@ button:hover, button:focus, .button:hover, .button:focus {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  text-align: center;
 }
