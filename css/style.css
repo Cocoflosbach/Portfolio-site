@@ -247,3 +247,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  text-align: center;
+}
